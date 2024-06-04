@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    
+<!-- Mirrored from html.themewant.com/zeniq/main/index-three.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 May 2024 10:03:17 GMT -->
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zeniq - Home III</title>
+        <link rel="icon" type="image/png" href="https://html.themewant.com/zeniq/favicon.ico"/>
+        <meta name="description" content="Zeniq a clean, modern and pixel-perfect multipurpose blogging HTML5 website template.">
+        <meta name="theme-color" content="#15171A">
+
+        <!-- preload head styles -->
+        <link rel="preload" href="../assets/css/unicons.min.css" as="style">
+        <link rel="preload" href="../assets/css/prettify.min.css" as="style">
+        <link rel="preload" href="../assets/css/swiper-bundle.min.css" as="style">
+        <link rel="preload" href="../assets/css/magic-cursor.min.css" as="style">
+
+        <!-- preload footer scripts -->
+        <link rel="preload" href="../assets/js/libs/jquery.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/clipboard.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/scrollmagic.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/swiper-bundle.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/split-type.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/anime.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/gsap.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/typed.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/prettify.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/smooth-scrollbar.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/tilt.min.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/data-attr-helper.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/swiper-helper.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/splitype-helper.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/anime-helper.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/anime-helper-defined-timelines.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/typed-helper.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/tilt-helper.js" as="script">
+        <link rel="preload" href="../assets/js/core/preloader.js" as="script">
+        <link rel="preload" href="../assets/js/core/dynamic-background.js" as="script">
+        <link rel="preload" href="../assets/js/core/magic-cursor.js" as="script">
+        <link rel="preload" href="../assets/js/core/marquee.js" as="script">
+        <link rel="preload" href="../assets/js/app.js" as="script">
+
+        <!-- app head for bootstrap core -->
+        <script src="../assets/js/app-head-bs.js"></script>
+
+        <!-- include uni-core components -->
+        <link rel="stylesheet" href="../assets/js/uni-core/css/components/base.min.css">
+
+        <!-- include styles -->
+        <link rel="stylesheet" href="../assets/css/unicons.min.css">
+        <link rel="stylesheet" href="../assets/css/prettify.min.css">
+        <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="../assets/css/magic-cursor.min.css">
+
+        <!-- include main style -->
+        <link rel="stylesheet" href="../assets/css/theme/main.min.css">
+
+        <!-- include scripts -->
+        <script src="../assets/js/uni-core/js/uni-core.min.js"></script>
+        <script src="../assets/js/libs/lightbox.min.js"></script>
+        <script src="../assets/js/libs/filter.min.js"></script>
+        <script src="../assets/js/libs/countdown.min.js"></script>
+        <script src="../assets/js/libs/tooltip.min.js"></script>
+    
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5JJP7FY91"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-B5JJP7FY91');
+        </script>
+        <script async type="module">
+            import { getCLS, getFCP, getFID, getLCP, getTTFB } from 'https://cdn.jsdelivr.net/npm/web-vitals@2.1.2/dist/web-vitals.js';
+            function sendToGoogleAnalytics({ name, delta, id }) {
+                gtag('event', name, {
+                    event_category: 'Web Vitals',
+                    event_label: id,
+                    value: Math.round(name === 'CLS' ? delta * 1000 : delta),
+                    non_interaction: true,
+                });
+            }
+            /* CLS FCP FID LCP TTFB */
+            getCLS(sendToGoogleAnalytics);
+            getFCP(sendToGoogleAnalytics);
+            getFID(sendToGoogleAnalytics);
+            getLCP(sendToGoogleAnalytics);
+            getTTFB(sendToGoogleAnalytics);
+        </script>
+    </head>
+    <body class="uni-body panel bg-white text-gray-900 dark:bg-black dark:text-gray-200 overflow-x-hidden">
+
+        <!--  Search modal -->
+        <div id="uc-search-modal" class="uc-modal-full uc-modal" data-uc-modal="overlay: true">
+            <div class="uc-modal-dialog d-flex justify-center bg-white text-dark dark:bg-gray-900 dark:text-white" data-uc-height-viewport="">
+                <div class="uc-modal-close-full m-1 p-0 vstack gap-narrow text-center">
+                    <button class="icon-3 btn btn-md btn-dark dark:bg-white dark:text-dark w-24px sm:w-32px h-24px sm:h-32px p-0" type="button">
+                        <i class="icon unicon-close"></i>
+                    </button>
+                    <span class="ft-secondary fs-7">ESC</span>
+                </div>
+
+                <div class="panel w-100 sm:w-500px px-2 py-10">
+                    <h3 class="display-6 sm:display-5 ft-tertiary ls-0 lh-sm text-uppercase text-center">Search</h3>
+                    <form class="hstack gap-1 mt-4 border-bottom p-narrow dark:border-gray-700" action="https://html.themewant.com/zeniq/main/index-three.html?">
+                        <span class="d-inline-flex justify-center items-center w-24px sm:w-40 h-24px sm:h-40px opacity-50"><i class="unicon-search icon-3"></i></span>
+                        <input type="search" name="q" class="form-control-plaintext ms-1 fs-6 sm:fs-5 w-full dark:text-white" placeholder="Type your keyword.." aria-label="Search" autofocus>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--  Menu panel -->
+        <div id="uc-menu-panel" data-uc-offcanvas="overlay: true;">
+            <div class="uc-offcanvas-bar bg-white text-dark dark:bg-gray-900 dark:text-white">
+                <header class="uc-offcanvas-header hstack justify-between items-center pb-4 bg-white dark:bg-gray-900">
+                    <div class="uc-logo">
+                        <a href="index.html" class="h5 text-none text-primary">
+                            <img class="w-64px" src="https://html.themewant.com/zeniq/assets/images/common/logo-text.svg" alt="Zeniq" data-uc-svg>
+                        </a>
+                    </div>
+                    <button class="uc-offcanvas-close position-relative top-0 end-0 m-0 p-0 icon-3 btn btn-md btn-alt-dark dark:bg-white dark:text-dark rounded-circle" type="button">
+                        <i class="unicon-close"></i>
+                    </button>
+                </header>
+
+                <div class="panel">
+                    <ul class="nav-y gap-narrow fw-bold text-uppercase fs-6" data-uc-nav>
+                        <li class="uc-parent">
+                            <a href="index.html">Home</a>
+                            <ul class="uc-nav-sub">
+                                <li><a href="index.html">Home 01</a></li>
+                                <li><a href="index-two.html">Home 02</a></li>
+                                <li><a href="index-three.html">Home 03</a></li>
+                                <li><a href="index-four.html">Home 04</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="works.html">Works</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li class="uc-parent">
+                            <a href="#">Inner Pages</a>
+                            <ul class="uc-nav-sub" data-uc-nav="">
+                                <li><a href="services-detail.html">Services - Single</a></li>
+                                <li><a href="works-detail.html">Works - Single</a></li>
+                                <li class="uc-parent">
+                                    <a href="blog.html">Blog</a>
+                                    <ul class="uc-nav-sub">
+                                        <li><a href="blog.html">Full Width</a></li>
+                                        <li><a href="blog-2cols.html">Grid 2 Cols</a></li>
+                                        <li><a href="blog-3cols.html">Grid 3 Cols</a></li>
+                                        <li><a href="blog-4cols.html">Grid 4 Cols</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uc-parent">
+                                    <a href="blog-details.html">Blog - detail</a>
+                                    <ul class="uc-nav-sub">
+                                        <li><a href="blog-details.html">Blog detail</a></li>
+                                        <li><a href="blog-details-2.html">Blog detail - v2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uc-parent">
+                                    <a href="#">Useful pages</a>
+                                    <ul class="uc-nav-sub">
+                                        <li><a href="sign-up.html">Sign up</a></li>
+                                        <li><a href="sign-in.html">Sign in</a></li>
+                                        <li><a href="reset-password.html">Reset password</a></li>
+                                        <li><a href="404.html">404 page</a></li>
+                                        <li><a href="coming-soon.html">Coming soon</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uc-parent">
+                                    <a href="#">Other pages</a>
+                                    <ul class="uc-nav-sub">
+                                        <li><a href="page-faq.html">FAQ</a></li>
+                                        <li><a href="page-terms.html">Terms of use</a></li>
+                                        <li><a href="page-privacy.html">Privacy policy</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="uc-parent">
+                            <a href="shop.html">Shop</a>
+                            <ul class="uc-nav-sub" data-uc-nav="">
+                                <li class="uc-parent">
+                                    <a href="shop.html">Shop layouts</a>
+                                    <ul class="uc-nav-sub">
+                                        <li><a href="shop.html">Shop 4 cols</a></li>
+                                        <li><a href="shop-3.html">Shop 3 cols</a></li>
+                                        <li><a href="shop-2.html">Shop 2 cols</a></li>
+                                        <li><a href="shop-sidebar.html">Shop with sidebar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="shop-category.html">Archive category</a></li>
+                                <li><a href="shop-product-detail.html">Product detail</a></li>
+                                <li><a href="shop-product-detail-2.html">Product detail - v2</a></li>
+                                <li><a href="shop-cart.html">Cart</a></li>
+                                <li><a href="shop-cart-2.html">Cart - v2</a></li>
+                                <li><a href="shop-checkout.html">Checkout</a></li>
+                                <li><a href="shop-checkout-2.html">Checkout - v2</a></li>
+                                <li><a href="shop-order.html">Order confirmation</a></li>
+                            </ul>
+                        </li>
+                        <li class="hr opacity-10 my-1"></li>
+                        <li><a href="sign-in.html">Sign in</a></li>
+                        <li><a href="sign-up.html">Create an account</a></li>
+                        <li><a href="page-terms.html">Terms of use</a></li>
+                        <li><a href="page-privacy.html">Privacy policy</a></li>
+                    </ul>
+                    <ul class="social-icons nav-x mt-4">
+                        <li>
+                            <a href="#"><i class="unicon-logo-medium icon-2"></i></a>
+                            <a href="#"><i class="unicon-logo-twitter icon-2"></i></a>
+                            <a href="#"><i class="unicon-logo-instagram icon-2"></i></a>
+                            <a href="#"><i class="unicon-logo-pinterest icon-2"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--  Cart panel -->
+        <div id="uc-cart-panel" data-uc-offcanvas="overlay: true; flip: true;">
+            <div class="uc-offcanvas-bar bg-white text-dark dark:bg-gray-900 dark:text-white">
+                <button class="uc-offcanvas-close m-1 p-0 icon-2 md:icon-3 btn btn-md btn-dark dark:bg-white dark:text-dark rounded-circle" type="button">
+                    <i class="unicon-close"></i>
+                </button>
+
+                <div class="mini-cart-content vstack justify-between panel h-100">
+                    <div class="mini-cart-header">
+                        <h3 class="title h5 m-0">Shopping cart</h3>
+                    </div>
+                    <div class="mini-cart-listing panel flex-1 my-4 overflow-scroll">
+                        <p class="alert alert-warning" hidden>Your cart empty!</p>
+                        <div class="panel vstack gap-3">
+                            <div>
+                                <article class="product type-product panel">
+                                    <div class="hstack gap-2">
+                                        <div class="ratio ratio-1x1 rounded w-80px uc-transition-toggle overflow-hidden">
+                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/common/products/img-07.jpg" alt="Laptop Cover">
+                                            <a href="shop-product-detail.html" class="position-cover" data-caption="Laptop Cover"></a>
+                                        </div>
+                                        <div class="content vstack gap-narrow fs-6">
+                                            <h5 class="h6 m-0"><a class="text-none" href="shop-product-detail.html">Laptop Cover</a></h5>
+                                            <div class="hstack gap-narrow fs-7 opacity-50"><span class="qty">1</span> x <span class="price">$24.00</span></div>
+                                            <a href="#remove_from_cart" class="remove fs-7">Remove</a>
+                                        </div>
+                                        <a href="#remove_from_cart" class="remove position-absolute top-0 end-0 btn p-0 hover:text-danger" hidden>
+                                            <i class="unicon-close icon-1"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div>
+                                <article class="product type-product panel">
+                                    <div class="hstack gap-2">
+                                        <div class="ratio ratio-1x1 rounded w-80px uc-transition-toggle overflow-hidden">
+                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/common/products/img-08.jpg" alt="Disney Toys">
+                                            <a href="shop-product-detail.html" class="position-cover" data-caption="Disney Toys"></a>
+                                        </div>
+                                        <div class="content vstack gap-narrow fs-6">
+                                            <h5 class="h6 m-0"><a class="text-none" href="shop-product-detail.html">Disney Toys</a></h5>
+                                            <div class="hstack gap-narrow fs-7 opacity-50"><span class="qty">1</span> x <span class="price">$5.00</span></div>
+                                            <a href="#remove_from_cart" class="remove fs-7">Remove</a>
+                                        </div>
+                                        <a href="#remove_from_cart" class="remove position-absolute top-0 end-0 btn p-0 hover:text-danger" hidden>
+                                            <i class="unicon-close icon-1"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div>
+                                <article class="product type-product panel">
+                                    <div class="hstack gap-2">
+                                        <div class="ratio ratio-1x1 rounded w-80px uc-transition-toggle overflow-hidden">
+                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/common/products/img-09.jpg" alt="Screen Axe">
+                                            <a href="shop-product-detail.html" class="position-cover" data-caption="Screen Axe"></a>
+                                        </div>
+                                        <div class="content vstack gap-narrow fs-6">
+                                            <h5 class="h6 m-0"><a class="text-none" href="shop-product-detail.html">Screen Axe</a></h5>
+                                            <div class="hstack gap-narrow fs-7 opacity-50"><span class="qty">1</span> x <span class="price">$19.00</span></div>
+                                            <a href="#remove_from_cart" class="remove fs-7">Remove</a>
+                                        </div>
+                                        <a href="#remove_from_cart" class="remove position-absolute top-0 end-0 btn p-0 hover:text-danger" hidden>
+                                            <i class="unicon-close icon-1"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div>
+                                <article class="product type-product panel">
+                                    <div class="hstack gap-2">
+                                        <div class="ratio ratio-1x1 rounded w-80px uc-transition-toggle overflow-hidden">
+                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/common/products/img-10.jpg" alt="Airpods Pro">
+                                            <a href="shop-product-detail.html" class="position-cover" data-caption="Airpods Pro"></a>
+                                        </div>
+                                        <div class="content vstack gap-narrow fs-6">
+                                            <h5 class="h6 m-0"><a class="text-none" href="shop-product-detail.html">Airpods Pro</a></h5>
+                                            <div class="hstack gap-narrow fs-7 opacity-50"><span class="qty">1</span> x <span class="price">$49.00</span></div>
+                                            <a href="#remove_from_cart" class="remove fs-7">Remove</a>
+                                        </div>
+                                        <a href="#remove_from_cart" class="remove position-absolute top-0 end-0 btn p-0 hover:text-danger" hidden>
+                                            <i class="unicon-close icon-1"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mini-cart-footer panel pt-3 border-top">
+                        <div class="panel vstack gap-3 justify-between">
+                            <div class="mini-cart-total hstack justify-between">
+                                <h5 class="h5 m-0">Subtotal</h5>
+                                <span class="fs-5">$97.00</span>
+                            </div>
+                            <div class="mini-cart-actions vstack gap-1">
+                                <a href="shop-cart.html" class="btn btn-md btn-outline-gray-100 text-dark dark:text-white dark:border-gray-700 dark:hover:bg-gray-700">View cart</a>
+                                <a href="shop-checkout.html" class="btn btn-md btn-primary text-white">Checkout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Contact modal -->
+        <div id="uc-contact-form" data-uc-modal="overlay: true">
+            <div class="uc-modal-dialog lg:max-w-650px bg-gray-25 text-dark dark:bg-gray-800 dark:text-white rounded">
+                <button class="uc-modal-close-default p-0 icon-2 btn btn-md dark:text-white" type="button" data-uc-cursor="sm opaque" data-uc-cursor-stick=">*">
+                    <i class="icon-2 unicon-close"></i>
+                </button>
+
+                <div class="panel vstack gap-2 md:gap-4 text-center">
+                    <div class="panel cstack px-3 md:px-4 py-4 md:py-8 m-0 lg:mx-auto">
+                        <div class="panel vstack justify-center items-center gap-2 sm:gap-4 text-center">
+                            <h4 class="h2 sm:h1 ft-tertiary ls-0 lh-sm text-uppercase m-0">Let's get in touch</h4>
+                            <div class="panel w-100 sm:w-350px md:w-500px mx-auto">
+                                <form class="vstack gap-2">
+                                    <div class="vstack lg:hstack gap-2">
+                                        <input class="form-control h-48px w-100 md:w-1/2" type="text" placeholder="Full name*" required>
+                                        <input class="form-control h-48px w-100 md:w-1/2" type="text" placeholder="Last name*" required>
+                                    </div>
+                                    <div class="vstack lg:hstack gap-2">
+                                        <input class="form-control h-48px w-100 md:w-1/2" type="email" placeholder="Your email*" required>
+                                        <input class="form-control h-48px w-100 md:w-1/2" type="tel" placeholder="Phone number*" required>
+                                    </div>
+                                    <input class="form-control h-48px w-full" type="text" placeholder="Company name*" required>
+                                    <textarea class="form-control min-h-150px w-full" placeholder="Your message.."></textarea>
+                                    <button class="btn btn-primary btn-md text-white mt-2" type="submit">Send message</button>
+                                    <p class="fs-7 opacity-70 mt-2 text-center">Our expretises will back to you asap to book a call!</p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Bottom Actions Sticky -->
+        <div class="backtotop-wrap position-fixed bottom-0 end-0 z-99 m-2">
+            <div class="darkmode-trigger cstack w-40px h-40px rounded-circle text-none bg-gray-100 dark:bg-gray-700 dark:text-white" data-uc-cursor="sm exclusion" data-darkmode-toggle="">
+                <label class="switch">
+                    <span class="sr-only">Dark mode toggle</span>
+                    <input type="checkbox">
+                    <span class="slider fs-5"></span>
+                </label>
+            </div>
+            <a class="cstack w-40px h-40px mt-1 rounded-circle text-none bg-primary text-white" href="#" data-uc-cursor="sm exclusion" data-uc-backtotop>
+                <i class="icon-2 unicon-chevron-up"></i>
+            </a>
+        </div>
+
+        <!-- Header start -->
+        <header class="uc-header uc-navbar-sticky-wrap z-999 uc-dark" data-uc-sticky="sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;">
+            <nav class="uc-navbar-container uc-navbar-float fs-6 text-uppercase z-1" data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;">
+                <div class="container max-w-2xl">
+                    <div class="uc-navbar min-h-72px lg:min-h-80px text-gray-900 dark:text-white" data-uc-navbar=" animation: uc-animation-slide-top-small; duration: 150;">
+                        <div class="uc-navbar-left">
+                            <div class="uc-logo" data-uc-cursor="md opaque" data-uc-cursor-stick=">*">
+                                <a class="hstack gap-1" href="index-three.html" style="width: 80px" data-uc-magnetic>
+                                    <img class="text-primary" src="https://html.themewant.com/zeniq/assets/images/common/logo-text.svg" alt="Zeniq" data-uc-svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="uc-navbar-right">
+                            <div data-uc-cursor="opaque" data-uc-cursor-stick=">*">
+                                <a class="uc-menu-trigger" href="#uc-menu-panel" data-uc-toggle></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Header end -->
+
+        <!-- Wrapper start -->
+        <div id="wrapper" class="wrap">
+
+            <!-- Section start -->
+            <div id="hero_header" class="hero-header section panel bg-black text-white uc-dark">
+                <video src="https://html.themewant.com/zeniq/assets/images/common/bg-video-hero-2.webm" class="media-cover" autoplay data-uc-video="autoplay: inview; automute: true" loop playsinline></video>
+                <div class="position-cover z-1 bg-gradient-to-b from-transparent to-black"></div>
+                <div class="position-cover z-2 bg-black blend-color"></div>
+                <div class="position-cover z-2 bg-black opacity-75"></div>
+                <div class="section-outer panel z-3">
+                    <div class="container max-w-lg">
+                        <div class="section-inner panel py-8 pt-10 xl:py-10">
+                            <div class="panel row child-cols-12 lg:child-cols items-center justify-between g-0">
+                                <div class="lg:col-9">
+                                    <div class="panel vstack items-start justify-center gap-2 lg:gap-4 xl:gap-6" data-anime="targets: > *; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(100, {start: 250});">
+                                        <h1 class="display-5 sm:display-4 lg:display-2 ft-tertiary ls-0 lh-sm text-uppercase fst-italic m-0">
+                                            We are <br>
+                                            <span class="text-primary lg:ms-10">Inovative</span>
+                                        </h1>
+                                        <p class="fs-6 lg:fs-4 text-uppercase max-w-500px lg:ms-10">A newly created digital innovation company that focuses on design, development and business strategy. Based in Toronto.</p>
+                                        <button type="button" class="animate-btn btn btn-md lg:btn-lg xl:btn-xl btn-primary text-white mt-2 lg:ms-10 gap-0" data-uc-toggle="target: #uc-contact-form">
+                                            <span>Start a project</span>
+                                            <i class="icon icon-narrow unicon-arrow-up-right fw-bold"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="lg:col-3 d-none lg:d-block">
+                                    <div class="panel origin-center" data-uc-lightbox="video-autoplay: true" data-uc-cursor="opaque xl text-primary text-uppercase fw-bold" data-uc-cursor-text="Play Video" data-uc-cursor-stick=">*>*" data-anime="translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;">
+                                        <a class="icon-circle cstack w-128px h-128px rounded-circle border text-none" data-attrs="width: 720; height: 480;" href="https://html.themewant.com/zeniq/assets/images/common/bg-video-hero.webm">
+                                            <i class="icon icon-3 unicon-play-filled-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="about" class="about section panel overflow-hidden" data-uc-cursor="exclusion">
+                <div class="section-outer panel py-6 md:py-8 xl:py-10 dark:text-white">
+                    <div class="container max-w-2xl">
+                        <div class="section-inner panel vstack gap-6 sm:gap-8 xl:gap-10">
+                            <div class="panel vstack md:hstack items-start justify-between gap-2 lg:gap-6">
+                                <div class="w-100 md:w-1/2">
+                                    <h2 class="h2 lg:h1 ft-tertiary ls-0 lh-sm text-uppercase text-inherit m-0" data-uc-splitext="types: 'chars'" data-anime="onview: -100; targets: > *; translateY: [8, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(50, {start: 250});">About us</h2>
+                                    <span class="d-inline-block h-4px bg-primary mt-1" data-anime="onview: -100; width: [0, '40px']; easing: easeInOutExpo; duration: 750; delay: 400;"></span>
+                                </div>
+                                <div class="w-100 md:w-1/2">
+                                    <div class="vstack items-start gap-2" data-anime="onview: -100; targets: > *; translateY: [8, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(100, {start: 750});">
+                                        <p class="fs-3 lg:fs-2 xl:fs-1 fw-bold lh-lg">We’re an award-winning independent creative agency based in London. We take brands further through strategy, creativity and digital innovation.</p>
+                                        <p class="fs-5 lg:fs-3">We're a team of creative web designers and skilled developers who relish in creating purposeful digital experiences that people fall in love with.</p>
+                                        <a class="animate-btn btn btn-md sm:btn-lg btn-outline-gray-900 border-2 gap-0 dark:hover:bg-gray-700 border-gray-100 hover:border-gray-900 dark:border-gray-700 dark:hover:border-gray-700 dark:text-white mt-4 lg:mt-8" href="blog.html" data-uc-cursor="md opaque" data-anime="onview: -100; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 250;" data-uc-scroll="offset: 80;">
+                                            <span>Careers</span>
+                                            <i class="icon icon-narrow unicon-arrow-up-right fw-bold"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <div class="swiper overflow-unset" data-uc-swiper="items: 2; gap: 16;" data-uc-swiper-m="gap: 48;" data-anime="onview: -100; targets: .swiper-slide > *; translateX: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(50, {start: 250});">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="../assets/images/common/about-slide-01.jpg" alt="Image">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="../assets/images/common/about-slide-02.jpg" alt="Image">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="../assets/images/common/about-slide-03.jpg" alt="Image">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="../assets/images/common/about-slide-04.jpg" alt="Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel vstack md:hstack items-start justify-between gap-2 lg:gap-6">
+                                <div class="w-100 md:w-1/2">
+                                    <h2 class="h2 lg:h1 ft-tertiary ls-0 lh-sm text-uppercase text-inherit m-0" data-uc-splitext="types: 'chars'" data-anime="onview: -100; targets: > *; translateY: [8, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(50, {start: 250});">Some Facts</h2>
+                                    <span class="d-inline-block h-4px bg-primary mt-1" data-anime="onview: -100; width: [0, '40px']; easing: easeInOutExpo; duration: 750; delay: 400;"></span>
+                                </div>
+                                <div class="w-100 md:w-1/2">
+                                    <div class="row child-cols-6 col-match g-4 lg:g-6" data-anime="onview: -100; targets: > *; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(250, {start: 0});">
+                                        <div>
+                                            <div class="counter-item">
+                                                <div class="panel vstack gap-1 sm:gap-2 lg:gap-3">
+                                                    <h5 class="h1 sm:display-6 lg:display-4 ft-tertiary ls-0 lh-sm text-uppercase m-0">890</h5>
+                                                    <p class="fw-bold text-uppercase opacity-60 lh-lg border-top pt-2">Completed projects</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="counter-item">
+                                                <div class="panel vstack gap-1 sm:gap-2 lg:gap-3">
+                                                    <h5 class="h1 sm:display-6 lg:display-4 ft-tertiary ls-0 lh-sm text-uppercase m-0">40k</h5>
+                                                    <p class="fw-bold text-uppercase opacity-60 lh-lg border-top pt-2">Satesfied customers</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="counter-item">
+                                                <div class="panel vstack gap-1 sm:gap-2 lg:gap-3">
+                                                    <h5 class="h1 sm:display-6 lg:display-4 ft-tertiary ls-0 lh-sm text-uppercase m-0">2m</h5>
+                                                    <p class="fw-bold text-uppercase opacity-60 lh-lg border-top pt-2">Total revenue and ROI</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="counter-item">
+                                                <div class="panel vstack gap-1 sm:gap-2 lg:gap-3">
+                                                    <h5 class="h1 sm:display-6 lg:display-4 ft-tertiary ls-0 lh-sm text-uppercase m-0">16</h5>
+                                                    <p class="fw-bold text-uppercase opacity-60 lh-lg border-top pt-2">Years of experience</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="services" class="services section panel uc-dark" data-uc-cursor="exclusion">
+                <div class="section-outer panel py-6 md:py-8 xl:py-10 bg-gray-25 dark:bg-gray-900 dark:text-white">
+                    <div class="container max-w-2xl">
+                        <div class="section-inner panel vstack items-end gap-6 sm:gap-8 xl:gap-10">
+                            <div class="panel vstack md:hstack items-start justify-between gap-2 lg:gap-6">
+                                <div class="w-100 md:w-1/2">
+                                    <h2 class="h2 lg:h1 ft-tertiary ls-0 lh-sm text-uppercase text-inherit m-0" data-uc-splitext="types: 'chars'" data-anime="onview: -100; targets: > *; translateY: [8, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(50, {start: 250});">What we do</h2>
+                                    <span class="d-inline-block h-4px bg-primary mt-1" data-anime="onview: -100; width: [0, '40px']; easing: easeInOutExpo; duration: 750; delay: 400;"></span>
+                                </div>
+                                <div class="w-100 md:w-1/2">
+                                    <div class="vstack items-start gap-2" data-anime="onview: -100; targets: > *; translateY: [8, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(100, {start: 750});">
+                                        <p class="fs-3 lg:fs-2 xl:fs-1 fw-bold lh-md">We get under the skin of your true goals and challenges, with the technical know-how to deliver you the best solution that we all collectively believe in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <div class="vstack gap-0" data-anime="onview: -100; targets: > *; translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(100, {start: 1000});">
+                                    <div class="hr text-gray-100 dark:text-gray-700"></div>
+                                    <div>
+                                        <div class="service-item panel py-6 lg:py-7">
+                                            <div class="row child-cols justify-between g-2 md:g-4 lg:g-9">
+                                                <div class="col-12 md:col-auto">
+                                                    <span class="fs-3 lg:fs-2 xl:fs-1 fw-bold lh-md text-primary">01.</span>
+                                                </div>
+                                                <div>
+                                                    <h3 class="h2 lg:h1 xl:display-6 ft-tertiary ls-0 lh-sm text-uppercase text-inherit m-0">Product Design</h3>
+                                                </div>
+                                                <div class="col-12 md:col-5">
+                                                    <p class="fs-5 lg:fs-3 opacity-70">We’ve refined our design process and approach to collaboration.</p>
+                                                </div>
+                                                <div class="col-12 md:col-auto">
+                                                    <a href="services-detail.html" class="btn btn-lg btn-primary text-white w-48px h-48px p-0 rounded-circle">
+                                                        <i class="icon icon-1 unicon-arrow-up-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <a href="services-detail.html" class="position-cover" data-uc-cursor="lg text-white inverse-text" data-uc-cursor-icon="icon-3 unicon-arrow-up-right"></a>
+                                        </div>
+                                    </div>
+                                    <div class="hr text-gray-100 dark:text-gray-700"></div>
+                                    <div>
+                                        <div class="service-item panel py-6 lg:py-7">
+                                            <div class="row child-cols justify-between g-2 md:g-4 lg:g-9">
+                                                <div class="col-12 md:col-auto">
+                                                    <span class="fs-3 lg:fs-2 xl:fs-1 fw-bold lh-md text-primary">02.</span>
+                                                </div>
+                                                <div>
+                                                    <h3 class="h2 lg:h1 xl:display-6 ft-tertiary ls-0 lh-sm text-uppercase text-inherit m-0">Branding Identity</h3>
+                                                </div>
+                                                <div class="col-12 md:col-5">
+                                                    <p class="fs-5 lg:fs-3 opacity-70">We’ve refined our design process and approach to collaboration.</p>
+                                                </div>
+                                                <div class="col-12 md:col-auto">
+                                                    <a href="services-detail.html" class="btn btn-lg btn-primary text-white w-48px h-48px p-0 rounded-circle">
+                                                        <i class="icon icon-1 unicon-arrow-up-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <a href="services-detail.html" class="position-cover" data-uc-cursor="lg text-white inverse-text" data-uc-cursor-icon="icon-3 unicon-arrow-up-right"></a>
+                                        </div>
+                                    </div>
+                                    <div class="hr text-gray-100 dark:text-gray-700"></div>
+                                    <div>
+                                        <div class="service-item panel py-6 lg:py-7">
+                                            <div class="row child-cols justify-between g-2 md:g-4 lg:g-9">
+                                                <div class="col-12 md:col-auto">
+                                                    <span class="fs-3 lg:fs-2 xl:fs-1 fw-bold lh-md text-primary">03.</span>
+                                                </div>
+                                                <div>
+                                                    <h3 class="h2 lg:h1 xl:display-6 ft-tertiary ls-0 lh-sm text-uppercase text-inherit m-0">Web Development</h3>
+                                                </div>
+                                                <div class="col-12 md:col-5">
+                                                    <p class="fs-5 lg:fs-3 opacity-70">We’ve refined our design process and approach to collaboration.</p>
+                                                </div>
+                                                <div class="col-12 md:col-auto">
+                                                    <a href="services-detail.html" class="btn btn-lg btn-primary text-white w-48px h-48px p-0 rounded-circle">
+                                                        <i class="icon icon-1 unicon-arrow-up-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <a href="services-detail.html" class="position-cover" data-uc-cursor="lg text-white inverse-text" data-uc-cursor-icon="icon-3 unicon-arrow-up-right"></a>
+                                        </div>
+                                    </div>
+                                    <div class="hr text-gray-100 dark:text-gray-700"></div>
+                                    <div>
+                                        <div class="service-item panel py-6 lg:py-7">
+                                            <div class="row child-cols justify-between g-2 md:g-4 lg:g-9">
+                                                <div class="col-12 md:col-auto">
+                                                    <span class="fs-3 lg:fs-2 xl:fs-1 fw-bold lh-md text-primary">04.</span>
+                                                </div>
+                                                <div>
+                                                    <h3 class="h2 lg:h1 xl:display-6 ft-tertiary ls-0 lh-sm text-uppercase text-inherit m-0">Content Strategy</h3>
+                                                </div>
+                                                <div class="col-12 md:col-5">
+                                                    <p class="fs-5 lg:fs-3 opacity-70">We’ve refined our design process and approach to collaboration.</p>
+                                                </div>
+                                                <div class="col-12 md:col-auto">
+                                                    <a href="services-detail.html" class="btn btn-lg btn-primary text-white w-48px h-48px p-0 rounded-circle">
+                                                        <i class="icon icon-1 unicon-arrow-up-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <a href="services-detail.html" class="position-cover" data-uc-cursor="lg text-white inverse-text" data-uc-cursor-icon="icon-3 unicon-arrow-up-right"></a>
+                                        </div>
+                                    </div>
+                                    <div class="hr text-gray-100 dark:text-gray-700"></div>
+                                    <div>
+                                        <div class="service-item panel py-6 lg:py-7">
+                                            <div class="row child-cols justify-between g-2 md:g-4 lg:g-9">
+                                                <div class="col-12 md:col-auto">
+                                                    <span class="fs-3 lg:fs-2 xl:fs-1 fw-bold lh-md text-primary">05.</span>
+                                                </div>
+                                                <div>
+                                                    <h3 class="h2 lg:h1 xl:display-6 ft-tertiary ls-0 lh-sm text-uppercase text-inherit m-0">Data Sicence</h3>
+                                                </div>
+                                                <div class="col-12 md:col-5">
+                                                    <p class="fs-5 lg:fs-3 opacity-70">We’ve refined our design process and approach to collaboration.</p>
+                                                </div>
+                                                <div class="col-12 md:col-auto">
+                                                    <a href="services-detail.html" class="btn btn-lg btn-primary text-white w-48px h-48px p-0 rounded-circle">
+                                                        <i class="icon icon-1 unicon-arrow-up-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <a href="services-detail.html" class="position-cover" data-uc-cursor="lg text-white inverse-text" data-uc-cursor-icon="icon-3 unicon-arrow-up-right"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="works" class="works section panel overflow-hidden" data-anime="onview: -100; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;" data-uc-cursor="exclusion">
+                <div class="section-outer panel py-6 md:py-8 xl:py-10 dark:text-white">
+                    <div class="container max-w-2xl">
+                        <div class="section-inner panel vstack gap-6 md:gap-8 xl:gap-9">
+                            <div class="panel vstack items-center justify-center">
+                                <h2 class="h2 lg:h1 ft-tertiary ls-0 lh-sm text-uppercase text-inherit m-0" data-uc-splitext="types: 'chars'" data-anime="onview: -100; targets: > *; translateY: [8, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(50, {start: 250});">Case Studies</h2>
+                                <span class="d-inline-block h-4px bg-primary mt-2" data-anime="onview: -100; width: [0, '40px']; easing: easeInOutExpo; duration: 750; delay: 400;"></span>
+                            </div>
+                            <div class="section-content panel">
+                                <div class="panel" data-uc-filter="target: .uc-works-filter">
+                                    <ul class="nav-x gap-2 lg:gap-4 items-center justify-center h4 lg:h3 ft-tertiary ls-0 lh-sm text-uppercase text-inherit mb-4 lg:mb-6 xl:mb-8" data-anime="onview: -100; targets: > *; translateY: [-8, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(100, {start: 750});">
+                                        <li class="uc-active" data-uc-filter-control="*"><a href="#">All</a></li>
+                                        <li data-uc-filter-control=".branding"><a href="#">Branding</a></li>
+                                        <li data-uc-filter-control=".product-design"><a href="#">Product Design</a></li>
+                                        <li data-uc-filter-control=".app-design"><a href="#">App Design</a></li>
+                                        <li data-uc-filter-control=".illustration"><a href="#">Illustration</a></li>
+                                    </ul>
+                                    <div class="uc-works-filter row child-cols-12 md:child-cols-6 lg:child-cols-4 g-2 gy-4 lg:gy-6" data-uc-grid="" data-uc-scrollspy="cls: uc-animation-slide-bottom-medium; target: .project-item; delay: 250; repeat: false">
+                                        <div class="product-design app-design">
+                                            <div class="project-item panel" data-uc-cursor="lg text-primary" data-uc-cursor-icon="icon-3 unicon-arrow-up-right">
+                                                <div class="inner panel vstack">
+                                                    <div class="image-wrap panel overflow-hidden">
+                                                        <div class="ratio ratio-1x1 rounded image origin-center z-2">
+                                                            <img class="media-cover image" src="../assets/images/projects/01.jpg" alt="Piter Builders">
+                                                            <a href="works-detail.html" class="position-cover" data-caption="Piter Builders"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header vstack gap-narrow z-1 p-2">
+                                                        <h4 class="title h4 md:h3 lg:h2 ft-tertiary ls-0 lh-sm text-uppercase m-0">Piter Builders</h4>
+                                                        <p class="desc fs-6 lg:fs-5 opacity-60">Product Design, App Design</p>
+                                                    </div>
+                                                </div>
+                                                <a href="works-detail.html" class="link position-cover"></a>
+                                            </div>
+                                        </div>
+                                        <div class="branding">
+                                            <div class="project-item panel" data-uc-cursor="lg text-primary" data-uc-cursor-icon="icon-3 unicon-arrow-up-right">
+                                                <div class="inner panel vstack">
+                                                    <div class="image-wrap panel overflow-hidden">
+                                                        <div class="ratio ratio-1x1 rounded image origin-center z-2">
+                                                            <img class="media-cover image" src="../assets/images/projects/02.jpg" alt="Guinnes">
+                                                            <a href="works-detail.html" class="position-cover" data-caption="Guinnes"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header vstack gap-narrow z-1 p-2">
+                                                        <h4 class="title h4 md:h3 lg:h2 ft-tertiary ls-0 lh-sm text-uppercase m-0">Guinnes</h4>
+                                                        <p class="desc fs-6 lg:fs-5 opacity-60">Branding</p>
+                                                    </div>
+                                                </div>
+                                                <a href="works-detail.html" class="link position-cover"></a>
+                                            </div>
+                                        </div>
+                                        <div class="app-design">
+                                            <div class="project-item panel" data-uc-cursor="lg text-primary" data-uc-cursor-icon="icon-3 unicon-arrow-up-right">
+                                                <div class="inner panel vstack">
+                                                    <div class="image-wrap panel overflow-hidden">
+                                                        <div class="ratio ratio-1x1 rounded image origin-center z-2">
+                                                            <img class="media-cover image" src="../assets/images/projects/03.jpg" alt="The Creative Pain">
+                                                            <a href="works-detail.html" class="position-cover" data-caption="The Creative Pain"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header vstack gap-narrow z-1 p-2">
+                                                        <h4 class="title h4 md:h3 lg:h2 ft-tertiary ls-0 lh-sm text-uppercase m-0">The Creative Pain</h4>
+                                                        <p class="desc fs-6 lg:fs-5 opacity-60">App Design</p>
+                                                    </div>
+                                                </div>
+                                                <a href="works-detail.html" class="link position-cover"></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-design">
+                                            <div class="project-item panel" data-uc-cursor="lg text-primary" data-uc-cursor-icon="icon-3 unicon-arrow-up-right">
+                                                <div class="inner panel vstack">
+                                                    <div class="image-wrap panel overflow-hidden">
+                                                        <div class="ratio ratio-1x1 rounded image origin-center z-2">
+                                                            <img class="media-cover image" src="../assets/images/projects/04.jpg" alt="Spooky Times">
+                                                            <a href="works-detail.html" class="position-cover" data-caption="Spooky Times"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header vstack gap-narrow z-1 p-2">
+                                                        <h4 class="title h4 md:h3 lg:h2 ft-tertiary ls-0 lh-sm text-uppercase m-0">Spooky Times</h4>
+                                                        <p class="desc fs-6 lg:fs-5 opacity-60">Product Design</p>
+                                                    </div>
+                                                </div>
+                                                <a href="works-detail.html" class="link position-cover"></a>
+                                            </div>
+                                        </div>
+                                        <div class="branding">
+                                            <div class="project-item panel" data-uc-cursor="lg text-primary" data-uc-cursor-icon="icon-3 unicon-arrow-up-right">
+                                                <div class="inner panel vstack">
+                                                    <div class="image-wrap panel overflow-hidden">
+                                                        <div class="ratio ratio-1x1 rounded image origin-center z-2">
+                                                            <img class="media-cover image" src="../assets/images/projects/05.jpg" alt="Coffee House">
+                                                            <a href="works-detail.html" class="position-cover" data-caption="Coffee House"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header vstack gap-narrow z-1 p-2">
+                                                        <h4 class="title h4 md:h3 lg:h2 ft-tertiary ls-0 lh-sm text-uppercase m-0">Coffee House</h4>
+                                                        <p class="desc fs-6 lg:fs-5 opacity-60">Branding</p>
+                                                    </div>
+                                                </div>
+                                                <a href="works-detail.html" class="link position-cover"></a>
+                                            </div>
+                                        </div>
+                                        <div class="illustration">
+                                            <div class="project-item panel" data-uc-cursor="lg text-primary" data-uc-cursor-icon="icon-3 unicon-arrow-up-right">
+                                                <div class="inner panel vstack">
+                                                    <div class="image-wrap panel overflow-hidden">
+                                                        <div class="ratio ratio-1x1 rounded image origin-center z-2">
+                                                            <img class="media-cover image" src="../assets/images/projects/06.jpg" alt="Match Solver">
+                                                            <a href="works-detail.html" class="position-cover" data-caption="Match Solver"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header vstack gap-narrow z-1 p-2">
+                                                        <h4 class="title h4 md:h3 lg:h2 ft-tertiary ls-0 lh-sm text-uppercase m-0">Match Solver</h4>
+                                                        <p class="desc fs-6 lg:fs-5 opacity-60">Illustration</p>
+                                                    </div>
+                                                </div>
+                                                <a href="works-detail.html" class="link position-cover"></a>
+                                            </div>
+                                        </div>
+                                        <div class="illustration">
+                                            <div class="project-item panel" data-uc-cursor="lg text-primary" data-uc-cursor-icon="icon-3 unicon-arrow-up-right">
+                                                <div class="inner panel vstack">
+                                                    <div class="image-wrap panel overflow-hidden">
+                                                        <div class="ratio ratio-1x1 rounded image origin-center z-2">
+                                                            <img class="media-cover image" src="../assets/images/projects/07.jpg" alt="Dropout Boogie">
+                                                            <a href="works-detail.html" class="position-cover" data-caption="Dropout Boogie"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header vstack gap-narrow z-1 p-2">
+                                                        <h4 class="title h4 md:h3 lg:h2 ft-tertiary ls-0 lh-sm text-uppercase m-0">Dropout Boogie</h4>
+                                                        <p class="desc fs-6 lg:fs-5 opacity-60">Illustration</p>
+                                                    </div>
+                                                </div>
+                                                <a href="works-detail.html" class="link position-cover"></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-design illustration">
+                                            <div class="project-item panel" data-uc-cursor="lg text-primary" data-uc-cursor-icon="icon-3 unicon-arrow-up-right">
+                                                <div class="inner panel vstack">
+                                                    <div class="image-wrap panel overflow-hidden">
+                                                        <div class="ratio ratio-1x1 rounded image origin-center z-2">
+                                                            <img class="media-cover image" src="../assets/images/projects/08.jpg" alt="Stickers">
+                                                            <a href="works-detail.html" class="position-cover" data-caption="Stickers"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header vstack gap-narrow z-1 p-2">
+                                                        <h4 class="title h4 md:h3 lg:h2 ft-tertiary ls-0 lh-sm text-uppercase m-0">Stickers</h4>
+                                                        <p class="desc fs-6 lg:fs-5 opacity-60">Product Design, Illustration</p>
+                                                    </div>
+                                                </div>
+                                                <a href="works-detail.html" class="link position-cover"></a>
+                                            </div>
+                                        </div>
+                                        <div class="illustration">
+                                            <div class="project-item panel" data-uc-cursor="lg text-primary" data-uc-cursor-icon="icon-3 unicon-arrow-up-right">
+                                                <div class="inner panel vstack">
+                                                    <div class="image-wrap panel overflow-hidden">
+                                                        <div class="ratio ratio-1x1 rounded image origin-center z-2">
+                                                            <img class="media-cover image" src="../assets/images/projects/09.jpg" alt="Match Solver">
+                                                            <a href="works-detail.html" class="position-cover" data-caption="Match Solver"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header vstack gap-narrow z-1 p-2">
+                                                        <h4 class="title h4 md:h3 lg:h2 ft-tertiary ls-0 lh-sm text-uppercase m-0">Match Solver</h4>
+                                                        <p class="desc fs-6 lg:fs-5 opacity-60">Illustration</p>
+                                                    </div>
+                                                </div>
+                                                <a href="works-detail.html" class="link position-cover"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="clients" class="clients section panel overflow-hidden" data-uc-cursor="exclusion">
+                <div class="section-outer panel py-6 sm:py-8 xl:py-10 bg-gray-25 dark:bg-black dark:text-gray-200">
+                    <div class="container max-w-2xl">
+                        <div class="section-inner panel vstack gap-6 sm:gap-8 xl:gap-9">
+                            <div class="panel vstack items-center justify-center">
+                                <h2 class="h2 lg:h1 ft-tertiary ls-0 lh-sm text-uppercase text-inherit m-0" data-uc-splitext="types: 'chars'" data-anime="onview: -100; targets: > *; translateY: [8, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(50, {start: 250});">Clients Feedback</h2>
+                                <span class="d-inline-block h-4px bg-primary mt-2" data-anime="onview: -100; width: [0, '40px']; easing: easeInOutExpo; duration: 750; delay: 400;"></span>
+                            </div>
+                            <div class="section-content panel vstack gap-4">
+                                <div class="row child-cols-12 sm:child-cols-6 col-match g-0" data-uc-grid="" data-anime="onview: -100; targets: > *; translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(100, {start: 1200});">
+                                    <div>
+                                        <div class="service-item panel p-3 lg:p-5 xl:p-8 py-5 lg:py-8 dark:text-white">
+                                            <div class="panel vstack justify-center items-center gap-2 lg:gap-3 text-center">
+                                                <img class="w-32px" src="https://html.themewant.com/zeniq/assets/images/common/quote.svg" alt="quotes-icon" data-uc-svg>
+                                                <p class="desc fs-6 lg:fs-5 xl:fs-3 fw-bold mb-2 lg:mb-3">“Most of our time used to be taken up by administrative work whereas now we can focus on building out programs to help our employees. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nisi consectetur adipisci.”</p>
+                                                <div class="vstack gap-1">
+                                                    <h4 class="title h4 lg:h3 ft-tertiary ls-0 lh-sm text-uppercase m-0">Mark Zellers</h4>
+                                                    <span class="position fs-6 lg:fs-5">Director of Human Resources.</span>
+                                                </div>
+                                                <div class="icon cstack w-48px lg:w-72px h-48px lg:h-72px">
+                                                    <div class="ratio ratio-1x1 rounded rounded-circle uc-transition-toggle overflow-hidden">
+                                                        <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/avatars/01.png" alt="Mark Zellers">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="service-item panel p-3 lg:p-5 xl:p-8 py-5 lg:py-8 dark:text-white bg-white dark:bg-gray-800">
+                                            <div class="panel vstack justify-center items-center gap-2 lg:gap-3 text-center">
+                                                <img class="w-32px" src="https://html.themewant.com/zeniq/assets/images/common/quote.svg" alt="quotes-icon" data-uc-svg>
+                                                <p class="desc fs-6 lg:fs-5 xl:fs-3 fw-bold mb-2 lg:mb-3">“I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes and looks fantastic. Dolor sit amet consectetur adipisicing elit. Quas nisi consectetur adipisci eaque. Porro, atque.”</p>
+                                                <div class="vstack gap-1">
+                                                    <h4 class="title h4 lg:h3 ft-tertiary ls-0 lh-sm text-uppercase m-0">André Garcia</h4>
+                                                    <span class="position fs-6 lg:fs-5">Client Success Manager</span>
+                                                </div>
+                                                <div class="icon cstack w-48px lg:w-72px h-48px lg:h-72px">
+                                                    <div class="ratio ratio-1x1 rounded rounded-circle uc-transition-toggle overflow-hidden">
+                                                        <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/avatars/02.png" alt="André Garcia">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="service-item panel p-3 lg:p-5 xl:p-8 py-5 lg:py-8 dark:text-white bg-white dark:bg-gray-800">
+                                            <div class="panel vstack justify-center items-center gap-2 lg:gap-3 text-center">
+                                                <img class="w-32px" src="https://html.themewant.com/zeniq/assets/images/common/quote.svg" alt="quotes-icon" data-uc-svg>
+                                                <p class="desc fs-6 lg:fs-5 xl:fs-3 fw-bold mb-2 lg:mb-3">“This powerfull tool eliminates the need to leave Salesforce to get things done, quas libero placeat voluptates sed sequi? Corporis, earum vitae. Tempore pariatur dignissimos coming for great tool of repellat quae a eaque culpa iusto fugit.”</p>
+                                                <div class="vstack gap-1">
+                                                    <h4 class="title h4 lg:h3 ft-tertiary ls-0 lh-sm text-uppercase m-0">Matt Henderson</h4>
+                                                    <span class="position fs-6 lg:fs-5">Director of Sales Operations</span>
+                                                </div>
+                                                <div class="icon cstack w-48px lg:w-72px h-48px lg:h-72px">
+                                                    <div class="ratio ratio-1x1 rounded rounded-circle uc-transition-toggle overflow-hidden">
+                                                        <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/avatars/03.png" alt="Matt Henderson">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="service-item panel p-3 lg:p-5 xl:p-8 py-5 lg:py-8 dark:text-white">
+                                            <div class="panel vstack justify-center items-center gap-2 lg:gap-3 text-center">
+                                                <img class="w-32px" src="https://html.themewant.com/zeniq/assets/images/common/quote.svg" alt="quotes-icon" data-uc-svg>
+                                                <p class="desc fs-6 lg:fs-5 xl:fs-3 fw-bold mb-2 lg:mb-3">“I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes and looks fantastic. Dolor sit amet consectetur adipisicing elit. Quas nisi consectetur adipisci eaque. Porro, atque.”</p>
+                                                <div class="vstack gap-1">
+                                                    <h4 class="title h4 lg:h3 ft-tertiary ls-0 lh-sm text-uppercase m-0">Sarah Peterson</h4>
+                                                    <span class="position fs-6 lg:fs-5">Client Success Manager</span>
+                                                </div>
+                                                <div class="icon cstack w-48px lg:w-72px h-48px lg:h-72px">
+                                                    <div class="ratio ratio-1x1 rounded rounded-circle uc-transition-toggle overflow-hidden">
+                                                        <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/avatars/04.png" alt="Sarah Peterson">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="insights" class="insights blog section panel overflow-hidden" data-uc-cursor="exclusion">
+                <div class="section-outer panel py-6 md:py-8 xl:py-10 dark:text-white">
+                    <div class="container max-w-2xl">
+                        <div class="section-inner panel vstack gap-6 sm:gap-8 xl:gap-10">
+                            <div class="panel vstack md:hstack items-start justify-between gap-2 lg:gap-6">
+                                <div class="w-100 md:w-1/2">
+                                    <h2 class="h2 lg:h1 ft-tertiary ls-0 lh-sm text-uppercase text-inherit m-0" data-uc-splitext="types: 'chars'" data-anime="onview: -100; targets: > *; translateY: [8, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(50, {start: 250});">Insights</h2>
+                                    <span class="d-inline-block h-4px bg-primary mt-1" data-anime="onview: -100; width: [0, '40px']; easing: easeInOutExpo; duration: 750; delay: 400;"></span>
+                                </div>
+                                <div class="w-100 md:w-1/2">
+                                    <div class="row child-cols-12 sep-x g-4 lg:g-6" data-anime="onview: -200; targets: .post; translateY: [32, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(100, {start: 500});">
+                                        <div>
+                                            <article class="post type-post panel hstack items-start gap-2 lg:gap-3">
+                                                <div class="ratio ratio-3x2 rounded w-100 md:w-1/2 uc-transition-toggle overflow-hidden">
+                                                    <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/blog/img-01.jpg" alt="Top 5 reasons to invest in best of marketing agencies">
+                                                    <a href="blog-details.html" class="position-cover" data-caption="Top 5 reasons to invest in best of marketing agencies"></a>
+                                                </div>
+                                                <header class="panel w-100 md:w-1/2">
+                                                    <div class="panel vstack gap-1 lg:gap-2">
+                                                        <h3 class="h4 md:h3 ft-tertiary ls-0 lh-md text-uppercase m-0">
+                                                            <a class="text-none" href="blog-details.html">Top 5 reasons to invest in best of marketing agencies</a>
+                                                        </h3>
+                                                        <ul class="post-meta nav-x ft-secondary gap-1 fs-7 text-gray-400 dark:text-gray-300 d-none lg:d-flex">
+                                                            <li>
+                                                                <div class="hstack gap-narrow ft-secondary text-uppercase fw-bold">
+                                                                    <img src="../assets/images/avatars/02.png" alt="David" class="w-32px h-32px rounded-circle me-narrow">
+                                                                    <a href="page-author.html" class="text-none fw-bold text-dark dark:text-white">David</a>
+                                                                </div>
+                                                            </li>
+                                                            <li class="opacity-50">•</li>
+                                                            <li>
+                                                                <div class="hstack gap-narrow ft-secondary text-uppercase fw-bold">
+                                                                    <span>April 26, 2024</span>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </header>
+                                            </article>
+                                        </div>
+                                        <div>
+                                            <article class="post type-post panel hstack items-start gap-2 lg:gap-3">
+                                                <div class="ratio ratio-3x2 rounded w-100 md:w-1/2 uc-transition-toggle overflow-hidden">
+                                                    <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/blog/img-02.jpg" alt="How can marketing help your business grow fast?">
+                                                    <a href="blog-details.html" class="position-cover" data-caption="How can marketing help your business grow fast?"></a>
+                                                </div>
+                                                <header class="panel w-100 md:w-1/2">
+                                                    <div class="panel vstack gap-1 lg:gap-2">
+                                                        <h3 class="h4 md:h3 ft-tertiary ls-0 lh-md text-uppercase m-0">
+                                                            <a class="text-none" href="blog-details.html">How can marketing help your business grow fast?</a>
+                                                        </h3>
+                                                        <ul class="post-meta nav-x ft-secondary gap-1 fs-7 text-gray-400 dark:text-gray-300 d-none lg:d-flex">
+                                                            <li>
+                                                                <div class="hstack gap-narrow ft-secondary text-uppercase fw-bold">
+                                                                    <img src="../assets/images/avatars/01.png" alt="Kevin" class="w-32px h-32px rounded-circle me-narrow">
+                                                                    <a href="page-author.html" class="text-none fw-bold text-dark dark:text-white">Kevin</a>
+                                                                </div>
+                                                            </li>
+                                                            <li class="opacity-50">•</li>
+                                                            <li>
+                                                                <div class="hstack gap-narrow ft-secondary text-uppercase fw-bold">
+                                                                    <span>April 24, 2024</span>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </header>
+                                            </article>
+                                        </div>
+                                        <div>
+                                            <article class="post type-post panel hstack items-start gap-2 lg:gap-3">
+                                                <div class="ratio ratio-3x2 rounded w-100 md:w-1/2 uc-transition-toggle overflow-hidden">
+                                                    <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/blog/img-03.jpg" alt="The ultimate guide to marketing success stories">
+                                                    <a href="blog-details.html" class="position-cover" data-caption="The ultimate guide to marketing success stories"></a>
+                                                </div>
+                                                <header class="panel w-100 md:w-1/2">
+                                                    <div class="panel vstack gap-1 lg:gap-2">
+                                                        <h3 class="h4 md:h3 ft-tertiary ls-0 lh-md text-uppercase m-0">
+                                                            <a class="text-none" href="blog-details.html">The ultimate guide to marketing success stories</a>
+                                                        </h3>
+                                                        <ul class="post-meta nav-x ft-secondary gap-1 fs-7 text-gray-400 dark:text-gray-300 d-none lg:d-flex">
+                                                            <li>
+                                                                <div class="hstack gap-narrow ft-secondary text-uppercase fw-bold">
+                                                                    <img src="../assets/images/avatars/04.png" alt="Sarah" class="w-32px h-32px rounded-circle me-narrow">
+                                                                    <a href="page-author.html" class="text-none fw-bold text-dark dark:text-white">Sarah</a>
+                                                                </div>
+                                                            </li>
+                                                            <li class="opacity-50">•</li>
+                                                            <li>
+                                                                <div class="hstack gap-narrow ft-secondary text-uppercase fw-bold">
+                                                                    <span>April 22, 2024</span>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </header>
+                                            </article>
+                                        </div>
+                                    </div>
+                                    <a class="animate-btn btn btn-md sm:btn-lg btn-outline-gray-900 border-2 gap-0 dark:hover:bg-gray-700 border-gray-100 hover:border-gray-900 dark:border-gray-700 dark:hover:border-gray-700 dark:text-white mt-4 lg:mt-9" href="blog.html" data-uc-cursor="md opaque" data-anime="onview: -100; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 250;" data-uc-scroll="offset: 80;">
+                                        <span>More on Insights</span>
+                                        <i class="icon icon-narrow unicon-arrow-up-right fw-bold"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="cta" class="cta section panel overflow-hidden uc-dark" data-uc-cursor="exclusion">
+                <div class="section-outer panel py-6 sm:py-8 xl:pt-10 bg-gradient-to-b from-white to-gray-25 dark:from-gray-900 dark:to-black dark:text-white">
+                    <div class="container max-w-2xl">
+                        <div class="section-inner panel row child-cols g-4 lg:g-6">
+                            <div class="col-12 lg:col-6">
+                                <div class="panel vstack gap-2 md:gap-4">
+                                    <h2 class="display-6 md:display-5 xl:display-3 ft-tertiary ls-0 lh-sm text-uppercase m-0 text-inherit" data-anime="onview: -100; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 250;">Start a <span class="text-primary fst-italic d-block" data-uc-splitext="types: 'chars'" data-anime="onview: -100; targets: > *; translateX: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(50, {start: 350});">Project?</span></h2>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="fs-4 lg:fs-2 xl:fs-1 fw-bold text-inherit" data-anime="onview: -100; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 400;">We want to build products that make us proud to be taken up whereas now we can focus on building out programs.</p>
+                                <button type="button" class="animate-btn btn btn-xl btn-primary text-white gap-0 mt-4 xl:mt-8" data-uc-toggle="target: #uc-contact-form" data-anime="onview: -100; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 500;">
+                                    <span>Get in touch</span>
+                                    <i class="icon icon-narrow unicon-arrow-up-right fw-bold"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+        </div>
+
+        <!-- Wrapper end -->
+
+        <!-- Footer start -->
+        <footer id="uc-footer" class="uc-footer panel overflow-hidden uc-dark">
+            <div class="footer-outer py-4 lg:py-6 dark:bg-black dark:text-white">
+                <div class="container max-w-2xl">
+                    <div class="footer-inner vstack gap-4 lg:gap-6 xl:gap-8">
+                        <div class="uc-footer-widgets panel fs-4 lg:fs-3 fw-bold">
+                            <div class="row child-cols-6 lg:child-cols-3 justify-end col-match g-4 lg:g-6">
+                                <div>
+                                    <ul class="nav-y gap-1 lg:gap-2">
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="works.html">Works</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="#">Career</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="nav-y gap-1 lg:gap-2">
+                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="page-terms.html">Terms of service</a></li>
+                                        <li><a href="page-privacy.html">Privacy policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
+                            <div class="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
+                                <p class="opacity-60">Zeniq © 2024, All rights reserved.</p>
+                                <ul class="nav-x gap-2 fw-medium">
+                                    <li><a href="page-privacy.html">Privacy notice</a></li>
+                                    <li><a href="page-terms.html">Legal</a></li>
+                                    <li><a href="#">Cookie settings</a></li>
+                                </ul>
+                            </div>
+                            <div class="hstack justify-center lg:justify-end gap-2 lg:gap-3">
+                                <ul class="nav-x gap-2">
+                                    <li>
+                                        <a href="#"><i class="icon icon-2 unicon-logo-linkedin"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon icon-2 unicon-logo-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon icon-2 unicon-logo-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon icon-2 unicon-logo-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon icon-2 unicon-logo-youtube"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="vr"></div>
+                                <div class="d-inline-block">
+                                    <a href="#" class="hstack gap-1 text-none fw-medium">
+                                        <i class="icon icon-1 unicon-earth-filled"></i>
+                                        <span>English</span>
+                                        <span class="icon-narrow unicon-chevron-down" data-uc-drop-parent-icon=""></span>
+                                    </a>
+                                    <div class="p-2 bg-white dark:bg-gray-800 shadow-xs rounded w-150px" data-uc-drop="mode: click; offset: 28; pos: top-right; boundary: !.uc-footer-bottom; animation: uc-animation-slide-top-small; duration: 150;">
+                                        <ul class="nav-y gap-1 fw-medium items-end">
+                                            <li><a href="#en">English</a></li>
+                                            <li><a href="#ar">العربية</a></li>
+                                            <li><a href="#ch">中文</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Footer end -->
+
+        <!-- include jquery & bootstrap js -->
+        <script defer src="../assets/js/libs/jquery.min.js"></script>
+        <script defer src="../assets/js/libs/bootstrap.min.js"></script>
+
+        <!-- include uni-core components -->
+        <script defer src="../assets/js/uni-core/js/components/anime.min.js"></script>
+        <script defer src="../assets/js/uni-core/js/components/parallax.min.js"></script>
+
+        <!-- include scripts -->
+        <script src="../assets/js/libs/clipboard.min.js"></script>
+        <script src="../assets/js/libs/prettify.min.js"></script>
+        <script defer src="../assets/js/libs/swiper-bundle.min.js"></script>
+        <script defer src="../assets/js/libs/split-type.min.js"></script>
+        <script defer src="../assets/js/libs/scrollmagic.min.js"></script>
+        <script defer src="../assets/js/libs/anime.min.js"></script>
+        <script defer src="../assets/js/libs/gsap.min.js"></script>
+        <script defer src="../assets/js/libs/typed.min.js"></script>
+        <script defer src="../assets/js/libs/smooth-scrollbar.min.js"></script>
+        <script defer src="../assets/js/libs/tilt.min.js"></script>
+        <script defer src="../assets/js/libs/lightbox.min.js"></script>
+        <script defer src="../assets/js/libs/countdown.min.js"></script>
+        <script defer src="../assets/js/libs/tooltip.min.js"></script>
+        <script defer src="../assets/js/helpers/data-attr-helper.js"></script>
+        <script defer src="../assets/js/helpers/swiper-helper.js"></script>
+        <script defer src="../assets/js/helpers/splitype-helper.js"></script>
+        <script defer src="../assets/js/helpers/anime-helper.js"></script>
+        <script defer src="../assets/js/helpers/anime-helper-defined-timelines.js"></script>
+        <script defer src="../assets/js/helpers/typed-helper.js"></script>
+        <script defer src="../assets/js/helpers/tilt-helper.js"></script>
+        <script defer src="../assets/js/core/preloader.js"></script>
+        <script defer src="../assets/js/core/dynamic-background.js"></script>
+        <script defer src="../assets/js/core/magic-cursor.js"></script>
+        <script defer src="../assets/js/core/marquee.js"></script>
+
+        <!-- include app script -->
+        <script defer src="../assets/js/app.js"></script>
+        <script>
+            // Schema toggle via URL
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const getSchema = urlParams.get("schema");
+            if (getSchema === "dark") {
+                setDarkMode(1);
+            } else if (getSchema === "light") {
+                setDarkMode(0);
+            }
+
+            // Pretty Print
+            window.prettyPrint && prettyPrint();
+
+            // Copy to clipboard
+            var clipboard = new ClipboardJS(".ctc");
+            clipboard.on("success", function (e) {
+                document.getElementById("ctc_collapse").style.display = "flex";
+                setTimeout(function () {
+                    document.getElementById("ctc_collapse").style.display = "none";
+                }, 1000);
+                e.clearSelection();
+            });
+        </script>
+    </body>
+
+<!-- Mirrored from html.themewant.com/zeniq/main/index-three.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 May 2024 10:03:19 GMT -->
+</html>
